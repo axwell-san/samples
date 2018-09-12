@@ -1,0 +1,1 @@
+java -cp * org.openqa.grid.selenium.GridLauncherV3 -role hub -servlets servlet

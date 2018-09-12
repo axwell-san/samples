@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Servlet:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Servlet_jar</output-path>
+    <root id="archive" name="Servlet.jar">
+      <element id="module-output" name="Servlet" />
+      <element id="extracted-dir" path="C:/hello world servlet/selenium-server-standalone-3.12.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
