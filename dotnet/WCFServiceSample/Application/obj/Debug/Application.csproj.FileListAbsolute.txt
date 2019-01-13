@@ -1,0 +1,8 @@
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\bin\Debug\Application.exe.config
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\bin\Debug\Application.exe
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\bin\Debug\Application.pdb
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\bin\Debug\WCFService.exe
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\bin\Debug\WCFService.pdb
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\obj\Debug\Application.exe
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\Application\obj\Debug\Application.pdb

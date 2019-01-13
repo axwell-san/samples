@@ -1,0 +1,5 @@
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\WCFService\bin\Debug\WCFService.exe.config
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\WCFService\bin\Debug\WCFService.exe
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\WCFService\bin\Debug\WCFService.pdb
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\WCFService\obj\Debug\WCFService.exe
+C:\Users\andrei_sychykau\Desktop\WCFServiceSample\WCFService\obj\Debug\WCFService.pdb
