@@ -19,6 +19,7 @@ namespace GoogleTestsSpecflow
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("GoogleSearchEpam")]
+    [NUnit.Framework.CategoryAttribute("oneTimeDriver")]
     public partial class GoogleSearchEpamFeature
     {
         
@@ -32,7 +33,8 @@ namespace GoogleTestsSpecflow
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "GoogleSearchEpam", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
-                    "f two numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
+                    "f two numbers", ProgrammingLanguage.CSharp, new string[] {
+                        "oneTimeDriver"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,14 +77,14 @@ namespace GoogleTestsSpecflow
         public virtual void GoogleSearchForEpamUpperCase()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Google search for epam upper case", null, ((string[])(null)));
-#line 6
+#line 7
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 7
- testRunner.Given("I opened Google Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
- testRunner.When("I search for EPAM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I opened Google Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
+ testRunner.When("I search for EPAM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 10
  testRunner.Then("first found site is https://careers.epam.by", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -93,14 +95,14 @@ this.ScenarioInitialize(scenarioInfo);
         public virtual void GoogleSearchForEpamLowerCase()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Google search for epam lower case", null, ((string[])(null)));
-#line 11
+#line 12
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 12
- testRunner.Given("I opened Google Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 13
- testRunner.When("I search for epam", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I opened Google Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 14
+ testRunner.When("I search for epam", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 15
  testRunner.Then("first found site is https://careers.epam.by", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -111,14 +113,14 @@ this.ScenarioInitialize(scenarioInfo);
         public virtual void GoogleSearchForEpamCamelCase()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Google search for epam camel case", null, ((string[])(null)));
-#line 16
+#line 17
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 17
- testRunner.Given("I opened Google Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 18
- testRunner.When("I search for Epam", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I opened Google Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 19
+ testRunner.When("I search for Epam", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 20
  testRunner.Then("first found site is https://careers.epam.by", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
